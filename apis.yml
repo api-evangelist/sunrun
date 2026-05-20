@@ -26,6 +26,10 @@ apis:
     description: >-
       The Sunrun API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: GitHubOrganization
+    url: https://github.com/SunRun
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/sunrun
   - type: Website
     url: https://www.sunrun.com
 maintainers:
