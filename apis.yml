@@ -49,6 +49,12 @@ apis:
     description: >-
       The Sunrun API provides access to platform services and data for enterprise integration and automation.
 common:
+  - type: Plans
+    url: plans/sunrun-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/sunrun-rate-limits.yml
+  - type: FinOps
+    url: finops/sunrun-finops.yml
   - type: VulnerabilityDisclosure
     url: security/sunrun-vulnerability-disclosure.yml
   - type: DomainSecurity
