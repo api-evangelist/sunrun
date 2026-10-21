@@ -1,0 +1,79 @@
+edges:
+- partner_name: Sequoia Capital
+  partner: sequoia-capital
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://sequoiacap.com/companies/sunrun
+  category: vc portfolio participation
+  contract_reference:
+    register: Sequoia Capital companies (sequoiacap.com/companies/<slug>, from the site's sitemap.xml)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: Sunrun
+    register_id: https://sequoiacap.com/companies/sunrun
+    register_country: null
+    register_website: https://www.sunrun.com
+    matched_domain: sunrun.com
+    matched_by: domain
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+  detected_by: sweep-vc-portfolios.py
+  first_seen: '2026-10-21'
+- partner_name: Science Based Targets initiative (SBTi)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://sciencebasedtargets.org/target-dashboard
+  category: climate target-setting standard participation
+  contract_reference:
+    register: SBTi Target Dashboard (sciencebasedtargets.org/target-dashboard, companies-excel.xlsx)
+    standard: Science Based Targets initiative (SBTi) corporate net-zero / near-term target standard
+    spec_file: null
+    role: sbti-company
+    registered_name: Sunrun Inc.
+    register_id: '40011031'
+    register_country: United States of America
+    organization_type: Corporate
+    near_term_status: Validated Targets
+    net_zero_status: Validated Targets
+    matched_domain: sunrun.com
+    matched_by: domain
+    signal_note: 'participation only: the company filed a commitment or had targets validated by SBTi; target status
+      is context, not a certified product (the standard certifies no API or product)'
+    detected_by: sweep-carbon-accounting-sbti-pcaf.py
+    detected: '2026-10-21'
+    identity: wikidata Q7638158 'Sunrun' P856 https://www.sunrun.com/
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-carbon-accounting-sbti-pcaf.py
+  first_seen: '2026-10-21'
+generated: '2026-10-21'
+method: searched
+source:
+- https://a16z.com/portfolio/
+- https://www.battery.com/company/
+- https://www.battery.com/wp-admin/admin-ajax.php
+- https://www.sequoiacap.com/our-companies/
+- https://www.sequoiacap.com/sitemap.xml
+- https://www.indexventures.com/companies/
+checked:
+- https://a16z.com/portfolio/
+- https://www.battery.com/company/
+- https://www.battery.com/wp-admin/admin-ajax.php
+- https://www.indexventures.com/companies/
+- https://www.sequoiacap.com/our-companies/
+- https://www.sequoiacap.com/sitemap.xml
+- https://carbonaccountingfinancials.com/en/signatories
+- https://files.sciencebasedtargets.org/production/files/companies-excel.xlsx
+- https://ghgprotocol.org/built-ghg-protocol
+- https://ghgprotocol.org/tools-built-ghg-protocol
+- https://sciencebasedtargets.org/target-dashboard
+- https://www.cdp.net/en/find-accredited-solutions-providers
